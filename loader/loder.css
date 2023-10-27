@@ -1,15 +1,16 @@
 body {
     background-color: #141313;
-    padding-top: 100px;
-    display: flex;
+    
 }
 
 .loader {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
+
+    
  animation:a  24s linear infinite;
 }
 
@@ -29,7 +30,7 @@ body {
     width: 100px;
     height: 60px;
     position: inherit;
-    border-radius: 50%;
+    border-radius: 20%;
     
 }
 
