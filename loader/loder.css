@@ -1,34 +1,77 @@
 body {
     background-color: #141313;
     padding-top: 100px;
+    display: flex;
 }
 
 .loader {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
-    animation: a 6s linear infinite;
+    height: 400px;
+    width: 400px;
+ animation:a  24s linear infinite;
+}
+
+.cs {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding: 0 40px 0 0;
+    background-color: rgb(70, 73, 72) !important;
+    border-radius: 100px;
+    box-shadow: #a39898 0 0 50px 3px;
+ 
 }
 
 
-.all{
-    width: 120px;
-    height: 30px;
+.cs1 {
+    width: 100px;
+    height: 60px;
+    position: inherit;
+    border-radius: 50%;
+    
+}
+
+.center1-loader1 {
+    border:2px solid rgb(235, 232, 80);
+    rotate: 50deg;
+}
+
+.center1-loader2 {
+    border:2px solid rgb(13, 184, 147);
+        rotate: 90deg;
+}
+
+.center1-loader3 {
+    border:2px solid rgb(146, 13, 158);
+    rotate: 135deg;
+}
+.center1-loader4 {
+    border:2px solid rgb(138, 18, 18);
+    rotate: 360deg;
+}
+
+
+
+
+.all {
+    width: 360px;
+    height: 180px;
+    position: absolute;
     border-radius: 49%;
     padding: 13px 0 0 0;
-    position: absolute;
-    animation: a 3s linear infinite;
+    filter: drop-shadow(1px 2px 4px #fff);
+    animation: a 12s linear infinite;
 
 }
 
 
 .first-loader {
-    
+
     rotate: 50deg;
     border: 2px solid rgb(158, 197, 147);
-    border-top: 2px solid #7c2447;
+    border-top: 8px solid #7c2447;
 
 
 
@@ -37,7 +80,7 @@ body {
 .second-loader {
     rotate: 90deg;
     border: 2px solid rgb(182, 167, 202);
-    border-top: 2px solid #33945b;
+    border-top: 8px solid #33945b;
 
 
 }
@@ -45,14 +88,14 @@ body {
 .third-loader {
     rotate: 135deg;
     border: 2px solid rgb(174, 197, 46);
-    border-top: 2px solid #1759af;
+    border-top: 8px solid #1759af;
 
 
 }
 
 .four-loader {
     border: 2px solid rgb(51, 206, 172);
-    border-top: 2px solid #911a63;
+    border-top: 8px solid #911a63;
 
 }
 
@@ -60,30 +103,39 @@ body {
     0% {
         transform: rotate(0deg);
     }
+
     15% {
         transform: rotate(45deg);
     }
+
     25% {
         transform: rotate(0deg);
     }
+
     35% {
         transform: rotate(90deg);
     }
+
     45% {
         transform: rotate(0deg);
     }
+
     55% {
         transform: rotate(135deg);
     }
+
     65% {
         transform: rotate(0deg);
     }
+
     75% {
         transform: rotate(180deg);
     }
+
     85% {
         transform: rotate(0deg);
     }
+
     95% {
         transform: rotate(360deg);
     }
